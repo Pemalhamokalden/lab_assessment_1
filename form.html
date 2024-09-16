@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+    </head>
+    <body>
+        <form action="/" method="get" autocomplete="on">
+            <label for="Fname">First Name</label>
+            <input type="text" id="Fname" name="First Name"><br><br>
+            <label for="Lname">Last Name</label>
+            <input type="text" id="Lname" name="Last Name">
+            <fieldset>
+                <legend>Details</legend><br>
+                <label for="Choose your Role">Choose your Role:</label><br><br>
+                <input type="radio" value="Teacher">
+                <label for="Teacher">Teacher</label><br>
+                <input type="radio" value="Student">
+                <label for="Student">Student</label><br><br>
+
+                <label for="Choose your Department">Choose your Department:</label>
+                <select name="Department" id="D1">
+                    <option value="IT">IT</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Electrical and Mechanical">Electrical and Mechanical</option>
+                </select><br><br>
+                <label for="Choose your club(s)">Choose your club(s):</label><br><br>
+                <input type="checkbox" name="Cultural club" id="Cultural club">
+                <label for="Cultural club">Cultural club</label><br>
+                <input type="checkbox" name="Media club" id="Media club">
+                <label for="Media club">Media club</label><br>
+                <input type="checkbox" name="Helping Hand club" id="Helping Hand club">
+                <label for="Helping hand club">Helping hand club</label><br><br>
+                <input type="Submit" value="Submit">
+
+                
+            </fieldset>
+        </form>
+        
+    </body>
+</html>
